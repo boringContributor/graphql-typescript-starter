@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+		"declaration": true,
+		"removeComments": true,
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"target": "es6",
+		"sourceMap": true,
+		"incremental": true,
+		"allowSyntheticDefaultImports": true,
+		"noLib": false,
+		"noImplicitAny": false,
+		"outDir": "./dist",
+		"baseUrl": "./src",
+		"typeRoots": ["node_modules/@types", "types"],
+    "strict": true, "alwaysStrict": true,"esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+  }
+}
